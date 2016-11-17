@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="6dp"
+    android:background="#e0e0e0">
+
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <FrameLayout
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_column="0"
+            android:layout_marginTop="10dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/apple"
+                android:layout_gravity="center"
+                android:longClickable="false"
+                android:src="@drawable/pom"
+                android:visibility="visible"
+                android:clickable="true"
+                android:padding="0dp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/apple_off"
+                android:layout_gravity="center"
+                android:src="@drawable/pom_off"
+                android:visibility="gone"
+                android:padding="0dp"
+                android:clickable="false"
+                android:longClickable="true" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_column="1"
+            android:layout_marginTop="10dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/baigan"
+                android:layout_gravity="center"
+                android:src="@drawable/orange"
+                android:visibility="visible"
+                android:clickable="true"
+                android:padding="0dp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/baigan_off"
+                android:layout_gravity="center"
+                android:src="@drawable/orange_off"
+                android:visibility="gone"
+                android:padding="0dp"
+                android:clickable="false"
+                android:longClickable="true" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_column="2"
+            android:layout_marginTop="10dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/bellpepper"
+                android:layout_gravity="center"
+                android:src="@drawable/kiwi"
+                android:visibility="visible"
+                android:clickable="true"
+                android:padding="0dp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/bellpepper_off"
+                android:layout_gravity="center"
+                android:src="@drawable/kiwi_off"
+                android:visibility="gone"
+                android:padding="0dp"
+                android:clickable="false"
+                android:longClickable="true" />
+        </FrameLayout>
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <FrameLayout
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_column="0">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/carrot"
+                android:layout_gravity="center"
+                android:src="@drawable/watermelon"
+                android:visibility="visible"
+                android:clickable="true"
+                android:padding="0dp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/carrot_off"
+                android:layout_gravity="center"
+                android:src="@drawable/watermelon_off"
+                android:visibility="gone"
+                android:padding="0dp"
+                android:clickable="true"
+                android:longClickable="true" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_column="1"
+            android:padding="0dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/banana"
+                android:layout_gravity="center"
+                android:src="@drawable/plum"
+                android:visibility="visible"
+                android:clickable="true" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/banana_off"
+                android:layout_gravity="center"
+                android:src="@drawable/plum_off"
+                android:clickable="false"
+                android:visibility="gone"
+                android:longClickable="true" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_column="2"
+            android:padding="0dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/grape"
+                android:layout_gravity="center"
+                android:src="@drawable/strawberry"
+                android:visibility="visible"
+                android:clickable="true"
+                android:padding="0dp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/grape_off"
+                android:layout_gravity="center"
+                android:visibility="gone"
+                android:src="@drawable/strawberry_off"
+                android:clickable="false"
+                android:longClickable="true" />
+        </FrameLayout>
+
+    </TableRow>
+
+</TableLayout>
